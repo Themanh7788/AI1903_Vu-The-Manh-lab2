@@ -1,0 +1,37 @@
+#Q1#1
+def example_function(*args):
+    print("printing values:")
+    for arg in args:
+        print(arg)
+example_function(20, 40, 60)
+example_function(60,80)
+#2
+def caculation(a,b):
+    addition = a+b
+    subtraction = a-b 
+    return addition,subtraction
+res=caculation(40,10)
+print(res)
+#Q2
+def showemployee(Name, Salary):
+    print("Name:",Name,"Salary",Salary)
+showemployee('Ben','12000')
+showemployee('Jesse','9000')
+#Q3
+def addition(n):
+    for i in range(1,n+1):
+        return sum(1,i)
+res = addition(10)
+print(res)
+def show_student(Name,age):
+    print(Name,age)
+show_student('Peter',23)
+#Q4
+def check_palidrome_number(number):
+    return str(number) == str(number)[::-1]
+number = int(input("type_number:"))
+if check_palidrome_number(number):
+    print(f"{number} is a palidrome number")
+else:
+    print(f"{n} is not palidrome number")
+
